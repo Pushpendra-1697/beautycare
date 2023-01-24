@@ -32,6 +32,8 @@ app.get("/fetchcartItem", async (req, res) => {
   }
 });
 
+
+
 // **************add to cart*********************
 app.post("/", async (req, res) => {
   let { token } = req.headers;
